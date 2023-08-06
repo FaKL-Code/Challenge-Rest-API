@@ -1,5 +1,5 @@
 <a>
-    <img src="quote_genius_logo.png" alt="CD5 logo" title="CD5" align="right" height="60" />
+    <img src="quote_genius_logo.png" alt="Quote Genius logo" title="Quote Genius" align="right" height="60" />
 </a>
 
 # Quote Genius
