@@ -1,5 +1,5 @@
 <a>
-    <img src="https://cdn.discordapp.com/attachments/1092942669296193538/1105654059538591814/quote_genius_logo.png" alt="CD5 logo" title="CD5" align="right" height="60" />
+    <img src="quote_genius_logo.png" alt="CD5 logo" title="CD5" align="right" height="60" />
 </a>
 
 # Quote Genius
@@ -9,7 +9,7 @@
 
 
 <a href="https://www.fiap.com.br">
-    <img src="" alt="FIAP logo" title="FIAP" align="right" height="60" />
+    <img src="fiap.png" alt="FIAP logo" title="FIAP" align="right" height="60" />
 </a>
 
 ## Challenge Sprint 2023
