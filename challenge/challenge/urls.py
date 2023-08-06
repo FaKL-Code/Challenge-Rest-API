@@ -25,7 +25,7 @@ from rest_framework import routers
 #from rest_framework.authtoken.views import obtain_auth_token
 
 router = routers.DefaultRouter()
-router.register(r'api/v1/users', UserViewSet, basename='user')
+#router.register(r'api/v1/users', UserViewSet, basename='user')
 router.register(r'api/v1/customers', CustomerViewSet, basename='customer')
 router.register(r'api/v1/products', ProductViewSet, basename='product')
 router.register(r'api/v1/purchases', PurchaseViewSet, basename='purchase')
