@@ -98,3 +98,31 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+5. Navegue ate o diretório "./challenge"
+
+6. Faça as migrações dos modelos do projeto usando:
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+# Iniciar
+
+1. Inicie o servidor usando:
+```bash
+python manage.py runserver
+```
+
+2. Acesse o servidor em http://127.0.0.1:8000/auth/register e crie seu usuário
+
+3. Acesse o servidor em http://127.0.0.1:8000/auth/login e entre com o usuário que você criou
+
+4. Copie o token "Access" gerado para futuras autenticações
+
+
+# Testes
+
+
+
+# Links
