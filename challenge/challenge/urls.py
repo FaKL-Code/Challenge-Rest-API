@@ -22,7 +22,7 @@ from rest_framework.routers import DefaultRouter
 
 from rest_framework import routers
 
-from rest_framework.authtoken.views import obtain_auth_token
+#from rest_framework.authtoken.views import obtain_auth_token
 
 router = routers.DefaultRouter()
 router.register(r'api/v1/users', UserViewSet, basename='user')
@@ -36,6 +36,6 @@ router.register(r'api/v1/supplierproducts', SupplierProductViewSet, basename='su
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    path('api/', include('rest_framework.urls', namespace='rest_framework')),
-    path('api-token-auth/', obtain_auth_token, name='api_token_auth'),    
+#    path('api/', include('rest_framework.urls', namespace='rest_framework')),
+#    path('api-token-auth/', obtain_auth_token, name='api_token_auth'),    
 ]
