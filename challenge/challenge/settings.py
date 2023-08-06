@@ -40,15 +40,19 @@ INSTALLED_APPS = [
     'quotegenius',
     'rest_framework',
 #    'rest_framework.authtoken',
+    'rest_framework_api_key',
 ]
 
-#REST_FRAMEWORK = {
+REST_FRAMEWORK = {
+#    "DEFAULT_PERMISSION_CLASSES": [
+#        "rest_framework_api_key.permissions.HasAPIKey",
+#    ]
 #    'DEFAULT_PERMISSION_CLASSES': [
 #    'rest_framework.permissions.IsAuthenticated',
 #    ],
 #    'DEFAULT_AUTHENTICATION_CLASSES': (
 #    'rest_framework.authentication.TokenAuthentication',),
-#    }
+    }
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
