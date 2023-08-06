@@ -3,8 +3,8 @@ from django.shortcuts import render
 from rest_framework import serializers, viewsets
 from rest_framework.response import Response
 from django.contrib.auth.models import User
-from serializers import UserSerializer, ProductSerializer, CustomerSerializer, PurchaseProductSerializer, PurchaseProductSerializer, SupplierProductSerializer, SupplierSerializer
-from models import Customer, Product, Purchase, PurchaseProduct, Supplier, SupplierProduct
+from quotegenius.serializers import UserSerializer, ProductSerializer, CustomerSerializer, PurchaseProductSerializer, PurchaseProductSerializer, SupplierProductSerializer, SupplierSerializer
+from quotegenius.models import Customer, Product, Purchase, PurchaseProduct, Supplier, SupplierProduct
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
