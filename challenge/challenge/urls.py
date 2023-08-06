@@ -36,6 +36,7 @@ router.register(r'api/v1/supplierproducts', SupplierProductViewSet, basename='su
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
+    path('auth/', include('auth.urls')),
 #    path('api/', include('rest_framework.urls', namespace='rest_framework')),
 #    path('api-token-auth/', obtain_auth_token, name='api_token_auth'),    
 ]
