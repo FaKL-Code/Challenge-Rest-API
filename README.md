@@ -4,6 +4,7 @@
 
 # Quote Genius
 
+[![Github All Releases](https://img.shields.io/github/downloads/FaKL-Code/Challenge-Rest-API/total.svg)]()
 <img src="https://komarev.com/ghpvc/?username=FaKL-Code&color=brightgreen" alt="watching_count" />
 [![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 
