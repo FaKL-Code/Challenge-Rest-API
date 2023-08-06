@@ -22,7 +22,7 @@ class PurchaseViewSet(viewsets.ModelViewSet):
     queryset = Purchase.objects.all()
     serializer_class = PurchaseProductSerializer
 
-class PurchaseProduct(viewsets.ModelViewSet):
+class PurchaseProductViewSet(viewsets.ModelViewSet):
     queryset = PurchaseProduct.objects.all()
     serializer_class = PurchaseProductSerializer
 
