@@ -22,7 +22,16 @@ from rest_framework.routers import DefaultRouter
 
 from rest_framework import routers
 
+router = routers.DefaultRouter()
+router.register(r'api/v1/users', UserViewSet, basename='user')
+router.register(r'api/v1/customers', CustomerViewSet, basename='customer')
+router.register(r'api/v1/products', ProductViewSet, basename='product')
+router.register(r'api/v1/purchases', PurchaseViewSet, basename='purchase')
+router.register(r'api/v1/purchaseproducts', PurchaseProductViewSet, basename='purchaseproduct')
+router.register(r'api/v1/suppliers', SupplierViewSet, basename='supplier')
+router.register(r'api/v1/supplierproducts', SupplierProductViewSet, basename='supplierproduct')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include(router.urls)),
 ]
