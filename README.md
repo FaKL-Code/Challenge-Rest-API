@@ -13,9 +13,9 @@
     <img src="fiap.png" alt="FIAP logo" title="FIAP" align="right" height="60" />
 </a>
 
-## Challenge Sprint 2023
+## Enterprise Challenge 2023
 
-Para a atividade do Challenge Sprint 2023, foi apresentado um desafio que consiste em ...
+Para a atividade do Enterprise Challenge 2023, foi apresentado um desafio que consiste em ...
 
 ### Desafio
 
