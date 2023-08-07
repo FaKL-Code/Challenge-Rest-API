@@ -51,10 +51,11 @@ Rafael Zanão - RM82923
 # Sumário
 
 - [Instalação](#instalação)
+    - [Requisitos](#requisitos)
     - [Setup](#setup)
 - [Iniciar](#iniciar)
-- [Testes](#testes)
 - [Links](#links)
+- [Testes](#testes)
 
 # Instalação
 
@@ -121,9 +122,31 @@ python manage.py runserver
 
 4. Copie o token "Access" gerado para futuras autenticações
 
+# Links
+
+Nossa API tem os seguintes endpoints:
+
+1. Para ler toda a Documentação da API:
+    - http://127.0.0.1:8000/readoc
+    - http://127.0.0.1:8000/swagger
+    - http://127.0.0.1:8000/swagger.json
+------
+2. Para cadastro de usuário e obtenção do Token:
+    - http://127.0.0.1:8000/auth/register
+    - http://127.0.0.1:8000/auth/login
+    - http://127.0.0.1:8000/auth/login/refresh
+-----
+3. Para acessar o console administrativo:
+    - http://127.0.0.1:8000/admin
+------
+4. Para acessar os dados:
+    - http://127.0.0.1:8000/api/v1/customers
+    - http://127.0.0.1:8000/api/v1/products
+    - http://127.0.0.1:8000/api/v1/purchases
+    - http://127.0.0.1:8000/api/v1/purchaseproducts
+    - http://127.0.0.1:8000/api/v1/suppliers
+    - http://127.0.0.1:8000/api/v1/supplierproducts
 
 # Testes
 
-
-
-# Links
+Para Validar o funcionamento da API basta acessar cada um dos endpoits e tentar realizar requisições, lembrando que para acessar os dados, será necessário a authenticação a partir do token gerado no momento do login
