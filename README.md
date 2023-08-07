@@ -19,18 +19,20 @@ Para a atividade do Enterprise Challenge 2023, foi apresentado um desafio que co
 
 ### Desafio
 
-...
+No dia a dia dos comércios, uma das tarefas que mais consome tempo é a de fazer compras para reposição. É comum ter que preparar uma listagem dos produtos, consultar vários fornecedores, comparar preços, tudo manualmente. Além disso, muitos vendedores não fornecem uma lista de todos os produtos disponíveis. Some isso ao desencontro entre as informações dos produtos entre as base de dados dos comerciantes, o que mostra o tamanho do problema.
 
 ### Sistema Atual
 
-...
+Nosso sistema atualmente consiste em um backend e uma base de dados que concentra as informações mais pertinentes para o funcionamento do protótipo. Dessa forma, ele faz a criação de novas chaves da API, autenticaçao, e CRUD dos dados.
 
 ### Possíveis Melhorias
-...
+
+Estudamos aumentar a escalabidade do projeto por meio de arquitetura de micro serviços. Também podemos melhorar a segurança por meio de autenticação em dois fatores e permissões granulares para as chaves da API.
+Outra funcionalidade também interessante é a integração com sistema de pagamentos, para facilitar as transações, e mais adiante, integração com sistema de transportes.
 
 ## Escopo do Projeto
 
-...
+O projeto atua como uma plataforma que visa unificar e padronizar as transações comerciais entre fornecedores e comércios menores, por meio de uma API REST, com a qual os desenvolvedores de sistemas de ERP iriam integrar seus softwares, provendo uma funcionalidade útil, lucrativa e produtiva para todos os envolvidos.
 
 ## Especificação do Projeto
 
