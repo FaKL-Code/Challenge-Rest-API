@@ -109,6 +109,12 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+7. Crie um super usuário preenchendo os campos necessários ao usar o comando:
+```bash
+python manage.py createsuperuser
+```
+
+
 # Iniciar
 
 1. Inicie o servidor usando:
