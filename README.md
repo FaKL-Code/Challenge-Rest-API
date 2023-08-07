@@ -15,8 +15,6 @@
 
 ## Enterprise Challenge 2023
 
-Para a atividade do Enterprise Challenge 2023, foi apresentado um desafio que consiste em ...
-
 ### Desafio
 
 No dia a dia dos comércios, uma das tarefas que mais consome tempo é a de fazer compras para reposição. É comum ter que preparar uma listagem dos produtos, consultar vários fornecedores, comparar preços, tudo manualmente. Além disso, muitos vendedores não fornecem uma lista de todos os produtos disponíveis. Some isso ao desencontro entre as informações dos produtos entre as base de dados dos comerciantes, o que mostra o tamanho do problema.
@@ -36,7 +34,9 @@ O projeto atua como uma plataforma que visa unificar e padronizar as transaçõe
 
 ## Especificação do Projeto
 
-...
+Desenvolvemos uma API utilizando o Django Rest Framework do Python, essa API será hospedada em uma t2.micro (Máquina virtual AWS EC2) e tem alguns recursos de segurança, como os tokens de autenticação JWT.
+
+No Código Fonte temos um diagrama de arquitetura, uma página inicial do projeto e, caso seja necessário usar uma base de dados apartada, os scripts para criação eu carga da base.
 
 # Componentes do Grupo:
 
