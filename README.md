@@ -45,8 +45,8 @@ Guilherme Mauser - RM82890 \
 [![Guilherme github](https://img.shields.io/badge/GitHub-Guimauser05-181717.svg?style=flat&logo=github)](https://github.com/Guimauser05) \
 Nicolas Morais - RM84393 \
 [![Nicolas github](https://img.shields.io/badge/GitHub-nicmorais-181717.svg?style=flat&logo=github)](https://github.com/nicmorais) \
-Rafael Zanão - RM82923
-[![Rafael github](https://img.shields.io/badge/GitHub-Rafael--Zanao-181717.svg?style=flat&logo=github)](https://github.com/Rafael-Zanao) \
+Rafael Zanão - RM82923 \
+[![Rafael github](https://img.shields.io/badge/GitHub-Rafael--Zanao-181717.svg?style=flat&logo=github)](https://github.com/Rafael-Zanao) 
 
 # Sumário
 
