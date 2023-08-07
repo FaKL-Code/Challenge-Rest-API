@@ -159,4 +159,4 @@ Nossa API tem os seguintes endpoints:
 
 # Testes
 
-Para Validar o funcionamento da API basta acessar cada um dos endpoits e tentar realizar requisições, lembrando que para acessar os dados, será necessário a authenticação a partir do token gerado no momento do login
+Para Validar o funcionamento da API basta acessar cada um dos endpoits e tentar realizar requisições, lembrando que para acessar os dados, será necessário a autenticação a partir do token gerado no momento do login
