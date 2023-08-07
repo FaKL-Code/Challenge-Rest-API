@@ -42,6 +42,7 @@ Para a atividade do Enterprise Challenge 2023, foi apresentado um desafio que co
 Julio Facal - RM84125 \
 [![Julio github](https://img.shields.io/badge/GitHub-FaKL--Code-181717.svg?style=flat&logo=github)](https://github.com/FaKL-Code) \
 Guilherme Mauser - RM82890 \
+[![Guilherme github](https://img.shields.io/badge/GitHub-Guimauser05-181717.svg?style=flat&logo=github)](https://github.com/Guimauser05) \
 Nicolas Morais - RM84393 \
 [![Nicolas github](https://img.shields.io/badge/GitHub-nicmorais-181717.svg?style=flat&logo=github)](https://github.com/nicmorais) \
 Rafael Zanão - RM82923
