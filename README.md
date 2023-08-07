@@ -36,7 +36,7 @@ O projeto atua como uma plataforma que visa unificar e padronizar as transaçõe
 
 Desenvolvemos uma API utilizando o Django Rest Framework do Python, essa API será hospedada em uma t2.micro (Máquina virtual AWS EC2) e tem alguns recursos de segurança, como os tokens de autenticação JWT.
 
-No Código Fonte temos um diagrama de arquitetura, uma página inicial do projeto e, caso seja necessário usar uma base de dados apartada, os scripts para criação eu carga da base.
+No Código Fonte temos um diagrama de arquitetura, uma página inicial do projeto e, caso seja necessário usar uma base de dados apartada, os scripts para criação e carga da base.
 
 # Componentes do Grupo:
 
