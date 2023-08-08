@@ -38,7 +38,7 @@ Desenvolvemos uma API utilizando o Django Rest Framework do Python, essa API ser
 
 No Código Fonte temos um diagrama de arquitetura, uma página inicial do projeto e, caso seja necessário usar uma base de dados apartada, os scripts para criação e carga da base.
 
-Optamos por utilizar o próprio front-end do framework
+Optamos por utilizar o próprio front-end do framework.
 
 # Componentes do Grupo:
 
