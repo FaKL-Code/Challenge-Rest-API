@@ -17,30 +17,36 @@ class CustomerViewSet(viewsets.ModelViewSet):
     queryset = Customer.objects.all()
     serializer_class = CustomerSerializer
     permission_classes = [IsAuthenticated]
+    filterset_fields = ['name']
 
 class ProductViewSet(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
     permission_classes = [IsAuthenticated]
+    filterset_fields = ['name']
 
 class PurchaseViewSet(viewsets.ModelViewSet):
     queryset = Purchase.objects.all()
     serializer_class = PurchaseProductSerializer
     permission_classes = [IsAuthenticated]
+    filterset_fields = ['supplier_id', 'customer_id']
 
 class PurchaseProductViewSet(viewsets.ModelViewSet):
     queryset = PurchaseProduct.objects.all()
     serializer_class = PurchaseProductSerializer
     permission_classes = [IsAuthenticated]
+    filterset_fields = ['product_id', 'purchase_id']
 
 class SupplierViewSet(viewsets.ModelViewSet):
     queryset = Supplier.objects.all()
     serializer_class = SupplierSerializer
     permission_classes = [IsAuthenticated]
+    filterset_fields = ['name']
 
 class SupplierProductViewSet(viewsets.ModelViewSet):
     queryset = SupplierProduct.objects.all()
     serializer_class = SupplierProductSerializer
     permission_classes = [IsAuthenticated]
+    filterset_fields = ['product_id', 'supplier_id']
 
 
