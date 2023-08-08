@@ -1,5 +1,5 @@
 <a>
-    <img src="quote_genius_logo.png" alt="Quote Genius logo" title="Quote Genius" align="right" height="60" />
+    <img src="assets\quote_genius_logo.png" alt="Quote Genius logo" title="Quote Genius" align="right" height="60" />
 </a>
 
 # Quote Genius
@@ -10,7 +10,7 @@
 
 
 <a href="https://www.fiap.com.br">
-    <img src="fiap.png" alt="FIAP logo" title="FIAP" align="right" height="60" />
+    <img src="assets\fiap.png" alt="FIAP logo" title="FIAP" align="right" height="60" />
 </a>
 
 ## Enterprise Challenge 2023
