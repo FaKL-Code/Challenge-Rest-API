@@ -34,7 +34,7 @@ O projeto atua como uma plataforma que visa unificar e padronizar as transaçõe
 
 ## Especificação do Projeto
 
-Desenvolvemos uma API utilizando o Django Rest Framework do Python, essa API será hospedada em uma t2.micro (Máquina virtual AWS EC2) e tem alguns recursos de segurança, como os tokens de autenticação JWT.
+Desenvolvemos uma API utilizando o Django Rest Framework do Python, optamos por uma nuvem do tipo IaaS (Infrastructure as a Service) para hospedagem e nossa API tem alguns recursos de segurança, como os tokens de autenticação JWT.
 
 No Código Fonte temos um diagrama de arquitetura, uma página inicial do projeto e, caso seja necessário usar uma base de dados apartada, os scripts para criação e carga da base.
 
@@ -58,7 +58,7 @@ Rafael Zanão - RM82923 \
     - [Requisitos](#requisitos)
     - [Setup](#setup)
 - [Iniciar](#iniciar)
-- [Links](#links)
+- [Endpoints](#endpoints)
 - [Testes](#testes)
 
 # Instalação
@@ -132,7 +132,7 @@ python manage.py runserver
 
 4. Copie o token "Access" gerado para futuras autenticações
 
-# Links
+# Endpoints
 
 Nossa API tem os seguintes endpoints:
 
@@ -160,3 +160,9 @@ Nossa API tem os seguintes endpoints:
 # Testes
 
 Para Validar o funcionamento da API basta acessar cada um dos endpoits e tentar realizar requisições, lembrando que para acessar os dados, será necessário a autenticação a partir do token gerado no momento do login
+
+I.E.:
+
+<a>
+    <img src="assets\requesttest.png" alt="Teste de requisição" title="Request Test" align="center" height="400" />
+</a>
