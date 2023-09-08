@@ -10,16 +10,16 @@ class ProductAdmin(admin.ModelAdmin):
         fields = ['name', 'barcode']
 
 class PurchaseAdmin(admin.ModelAdmin):
-        fields = ['supplier_id', 'customer_id', 'total_amount']
+        fields = ['supplier', 'customer', 'total_amount']
 
 class PurchaseProductAdmin(admin.ModelAdmin):
-        fields = ['product_id', 'purchase_id', 'quantity', 'price']
+        fields = ['product', 'purchase', 'quantity', 'price']
 
 class SupplierAdmin(admin.ModelAdmin):
         fields = ['name', 'email']
 
 class SupplierProductAdmin(admin.ModelAdmin):
-        fields = ['supplier_id', 'product_id', 'quantity', 'price']
+        fields = ['supplier', 'product', 'quantity', 'price']
 
 admin.site.register(Customer, CustomerAdmin)
 admin.site.register(Product, ProductAdmin)

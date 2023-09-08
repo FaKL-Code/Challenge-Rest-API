@@ -3,7 +3,7 @@ from django.shortcuts import render
 from rest_framework import serializers, viewsets
 from rest_framework.response import Response
 from django.contrib.auth.models import User
-from quotegenius.serializers import UserSerializer, ProductSerializer, CustomerSerializer, PurchaseProductSerializer, PurchaseProductSerializer, SupplierProductSerializer, SupplierSerializer
+from quotegenius.serializers import UserSerializer, ProductSerializer, CustomerSerializer, PurchaseProductSerializer, PurchaseSerializer, PurchaseProductSerializer, SupplierProductSerializer, SupplierSerializer
 from quotegenius.models import Customer, Product, Purchase, PurchaseProduct, Supplier, SupplierProduct
 
 from rest_framework.permissions import IsAuthenticated
@@ -27,7 +27,7 @@ class ProductViewSet(viewsets.ModelViewSet):
 
 class PurchaseViewSet(viewsets.ModelViewSet):
     queryset = Purchase.objects.all()
-    serializer_class = PurchaseProductSerializer
+    serializer_class = PurchaseSerializer
     permission_classes = [IsAuthenticated]
     filterset_fields = ['supplier_id', 'customer_id']
 
