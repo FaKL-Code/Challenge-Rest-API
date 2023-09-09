@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'rest_framework_api_key',
     'django_filters',
     'drf_yasg',
+    'auditlog',   
+    'drf_user_activity_tracker', 
 ]
 
 REST_FRAMEWORK = {
@@ -62,6 +64,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'auditlog.middleware.AuditlogMiddleware',
+    'drf_user_activity_tracker.middleware.activity_tracker_middleware.ActivityTrackerMiddleware',
 ]
 
 ROOT_URLCONF = 'challenge.urls'
@@ -98,6 +102,14 @@ DATABASES = {
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(days=365),
 }
+
+AUDITLOG_INCLUDE_ALL_MODELS=True
+
+DRF_ACTIVITY_TRACKER_DATABASE = True
+
+DRF_ACTIVITY_TRACKER_SIGNAL = True
+
+DRF_ACTIVITY_TRACKER_EXCLUDE_KEYS = ['password', 'token', 'access', 'refresh']
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

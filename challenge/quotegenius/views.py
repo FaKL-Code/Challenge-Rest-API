@@ -10,47 +10,48 @@ from quotegenius.models import Customer, Product, Purchase, PurchaseProduct, Sup
 
 from rest_framework.permissions import IsAuthenticated
 
-class UserViewSet(viewsets.ModelViewSet):
+from auditlog.mixins import LogAccessMixin
+class UserViewSet(LogAccessMixin, viewsets.ModelViewSet):
     queryset = User.objects.none
     serializer_class = UserSerializer
     permission_classes = [IsAuthenticated]
 
-class CustomerViewSet(viewsets.ModelViewSet):
+class CustomerViewSet(LogAccessMixin, viewsets.ModelViewSet):
     queryset = Customer.objects.all()
     serializer_class = CustomerSerializer
     permission_classes = [IsAuthenticated]
     filter_backends = [filters.SearchFilter]
     search_fields = ['name']
 
-class ProductViewSet(viewsets.ModelViewSet):
+class ProductViewSet(LogAccessMixin, viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
     permission_classes = [IsAuthenticated]
     filter_backends = [filters.SearchFilter]
     search_fields = ['name']
 
-class PurchaseViewSet(viewsets.ModelViewSet):
+class PurchaseViewSet(LogAccessMixin, viewsets.ModelViewSet):
     queryset = Purchase.objects.all()
     serializer_class = PurchaseSerializer
     permission_classes = [IsAuthenticated]
     filter_backends = [filters.SearchFilter]
     search_fields = ['supplier__name', 'customer__name']
 
-class PurchaseProductViewSet(viewsets.ModelViewSet):
+class PurchaseProductViewSet(LogAccessMixin, viewsets.ModelViewSet):
     queryset = PurchaseProduct.objects.all()
     serializer_class = PurchaseProductSerializer
     permission_classes = [IsAuthenticated]
     filter_backends = [filters.SearchFilter]
     search_fields = ['product__name', 'purchase__customer__name']
 
-class SupplierViewSet(viewsets.ModelViewSet):
+class SupplierViewSet(LogAccessMixin, viewsets.ModelViewSet):
     queryset = Supplier.objects.all()
     serializer_class = SupplierSerializer
     permission_classes = [IsAuthenticated]
     filter_backends = [filters.SearchFilter]
     search_fields = ['name']
 
-class SupplierProductViewSet(viewsets.ModelViewSet):
+class SupplierProductViewSet(LogAccessMixin, viewsets.ModelViewSet):
     queryset = SupplierProduct.objects.all()
     serializer_class = SupplierProductSerializer
     permission_classes = [IsAuthenticated]
