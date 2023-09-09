@@ -126,9 +126,9 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-2. Acesse o servidor em http://127.0.0.1:8000/auth/register e crie seu usuário
+2. Acesse o servidor em http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/auth/register e crie seu usuário
 
-3. Acesse o servidor em http://127.0.0.1:8000/auth/login e entre com o usuário que você criou
+3. Acesse o servidor em http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/auth/login e entre com o usuário que você criou
 
 4. Copie o token "Access" gerado para futuras autenticações
 
@@ -137,25 +137,25 @@ python manage.py runserver
 Nossa API tem os seguintes endpoints:
 
 1. Para ler toda a Documentação da API:
-    - http://127.0.0.1:8000/readoc
-    - http://127.0.0.1:8000/swagger
-    - http://127.0.0.1:8000/swagger.json
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/readoc
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/swagger
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/swagger.json
 ------
 2. Para cadastro de usuário e obtenção do Token:
-    - http://127.0.0.1:8000/auth/register
-    - http://127.0.0.1:8000/auth/login
-    - http://127.0.0.1:8000/auth/login/refresh
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/auth/register
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/auth/login
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/auth/login/refresh
 -----
 3. Para acessar o console administrativo:
-    - http://127.0.0.1:8000/admin
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/admin
 ------
 4. Para acessar os dados:
-    - http://127.0.0.1:8000/api/v1/customers
-    - http://127.0.0.1:8000/api/v1/products
-    - http://127.0.0.1:8000/api/v1/purchases
-    - http://127.0.0.1:8000/api/v1/purchaseproducts
-    - http://127.0.0.1:8000/api/v1/suppliers
-    - http://127.0.0.1:8000/api/v1/supplierproducts
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/api/v1/customers
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/api/v1/products
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/api/v1/purchases
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/api/v1/purchaseproducts
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/api/v1/suppliers
+    - http://ec2-3-140-1-156.us-east-2.compute.amazonaws.com:8000/api/v1/supplierproducts
 
 # Testes
 
